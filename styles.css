@@ -545,6 +545,26 @@ footer{
 .category-card h3{
   font-size:24px;
   margin:0 0 10px;
+  display:inline-block;
+  transition:transform .2s ease;
+}
+
+/* Arrow hidden by default */
+
+.category-card h3::after{
+  content:" →";
+  opacity:0;
+  transition:opacity .2s ease;
+}
+
+/* Hover effect */
+
+.category-card:hover h3{
+  transform:translateX(4px);
+}
+
+.category-card:hover h3::after{
+  opacity:1;
 }
 
 .category-card p{
@@ -552,10 +572,6 @@ footer{
   font-size:15px;
   color:var(--muted);
   line-height:1.6;
-}
-
-.category-card:hover h3{
-  text-decoration:underline;
 }
 
 
