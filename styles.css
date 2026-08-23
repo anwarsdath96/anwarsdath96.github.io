@@ -424,7 +424,7 @@ footer{
 ========================= */
 
 .article-index{
-  margin-top:60px;
+  margin-top:35px;
 }
 
 .article-index>a{
@@ -544,6 +544,28 @@ footer{
 .all-articles{
   border-top:1px solid var(--line);
   padding-top:70px;
+}
+
+
+/* VIEW ALL ARTICLES */
+
+.view-all{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:5px;
+  font-size:14px;
+  font-weight:500;
+  border-bottom:1px solid var(--ink);
+  padding-bottom:3px;
+}
+
+.view-all span{
+  transition:transform .2s ease;
+}
+
+.view-all:hover span{
+  transform:translateX(4px);
 }
 
 
