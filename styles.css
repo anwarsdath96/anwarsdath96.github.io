@@ -452,6 +452,28 @@ footer{
 
 
 /* =========================
+   CATEGORY PAGE
+========================= */
+
+.category-page{
+  max-width:820px;
+}
+
+.category-intro{
+  margin-bottom:80px;
+}
+
+.category-articles{
+  border-top:1px solid var(--line);
+  padding-top:20px;
+}
+
+.category-articles .article-index{
+  margin-top:0;
+}
+
+
+/* =========================
    FEATURED ARTICLES
 ========================= */
 
@@ -547,7 +569,9 @@ footer{
 }
 
 
-/* VIEW ALL ARTICLES */
+/* =========================
+   VIEW ALL ARTICLES
+========================= */
 
 .view-all{
   display:inline-flex;
